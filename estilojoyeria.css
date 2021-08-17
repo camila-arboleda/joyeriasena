@@ -3,29 +3,97 @@
     box-sizing: border-box;
 }
 .contenerdorMenuLogo{
-    height: 4rem;
+    height: 7rem;
     display: flex;
     justify-content: space-between;
-    background-color: white;
+    background-color:black;
     box-shadow: 0px 1px 8px rgb(92, 92, 92);
     position: sticky;
     top: 1px;
     z-index: 10;
 }
 .contenerdorMenuLogo #logo{
-    margin: 1rem 2rem;
+    margin: 1rem 2rem; 
+    background-color:black; 
+    width: 120px;
+    height:80px;
 }
-
+.contenerdorMenuLogo #logo img{
+    width: 100%;
+    height: 100%;
+}
 nav ul{
     display: flex;
     justify-content: space-around;
 }
 nav ul li{
     list-style: none;
-    margin: 1.5rem 1.5rem;
+    margin: 3rem 2.5rem 4rem 7em;
 }
 nav ul li a{
     text-decoration: none;
-    color: black;
+    color:white;
     font-weight: bold;
+}
+.carrusel img{
+    width: 1000px;
+    height: 500px; 
+    margin: 2rem 2rem 5rem 11em;;
+    
+}
+/* ***********************************section  */
+section{
+    height: auto;
+    width: 100%;
+}
+.contenedor1{
+    height: auto;
+    padding: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.contenedor1 .articulo{
+    height: 30em;
+    width: 20em;
+    
+    background-blend-mode: soft-light;
+    background-position: center;
+    background-size: cover;
+    border-radius: 16px;
+    padding: 2em;
+    margin: 0.5em 1.8em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor1 #art1{
+    background-image: url(imagenes/daniela.jpg);
+}
+.contenedor1 #art2{
+    background-image: url(imagenes/gustavo\ 1.jpg);
+}
+.contenedor1 #art3{
+    background-image: url(imagenes/gil\ completa.jpg);
+}
+.contenedor1 .articulo p{
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+.contenedor1 .articulo a{
+    text-decoration: none;
+    color: white;
+    background-color: #c9b273;
+    padding: 0.6em 1.8em;
+    margin-top: 20em;
+    border-radius: 0.6em;
+    transition: 1s;
+}
+.contenedor1 .articulo a:hover{
+    background-color: #b3904f;
+    color: white;
 }
