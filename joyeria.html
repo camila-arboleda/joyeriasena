@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilojoyeria.css">
     <link rel="shortcut icon" href="logonegro.png" type="image/x-icon">
+    <link href="Librerias/css/all.css" rel="stylesheet"> <!--load all styles -->
     <link rel="stylesheet" href="footer.css">
     <title>Esteban Joyeros</title>
 </head>
@@ -18,7 +19,7 @@
             <nav>
                 <ul>
                     <li><a href="joyeria.html">Inicio</a></li>
-                    <li><a href="#">Productos</a></li>
+                    <li><a href="productos.html">Productos</a></li>
                     <li><a href="#">Contactanos</a></li>
                     <li><a href="#">Medidor de anillos</a></li>
                 </ul>
@@ -26,11 +27,15 @@
         </div>
     </header>
     <section>
-        <div class="carrusel">
-            <div id="carrusel">
-                <img src="imagenes/Anillos/5.jpg" alt=""> 
-            </div>
+        <div class="slider">
+            <ul>
+                <li><img src="imagenes/Carrusel/c1.jpg" alt=""></li>
+                <li><img src="imagenes/Carrusel/c5.jpg" alt=""></li>
+                <li><img src="imagenes/Carrusel/c4.jpg" alt=""></li>
+                <li><img src="imagenes/Carrusel/c6.jpg" alt=""></li>
+            </ul>
         </div>
+
         <div class="contenedor1" id="cont_principal" >
             <article class="articulo"id="art1">
 
@@ -47,16 +52,19 @@
                 <a href="#"> Ver más </a>
             </article>
         </div>
+
+        <div class="contenedor2">
+            <video src="video.mp4" autoplay loop controls muted></video>                  
+    </div>
     </section>
-    <div class="contenedor1">
-        <video src="videos/fondo.mp4" autoplay loop controls muted></video>                  
-</div>
+
 <footer class="footer">
-    <div class="cont_footer">
+    <div class="cont_footer redes">
+
         <h2>Siguenos...</h2>
         <div class="iconos">
             <a href="https://instagram.com/estebanjoyeros?utm_medium=copy_link"class= "fab fa-instagram" target="blank"></a>
-            <a href="https://api.whatsapp.com/send?phone=573204297613&text=¡Hola%20Esteban%20Joyeros%20Quiero%20conocer%20más%20de%20tus%20productos" class="fab fa-whatsapp" target="blank"></a>  
+            <a href="https://api.whatsapp.com/send?phone=573204297613&text=¡Hola%20Esteban%20Joyeros!%20Quiero%20conocer%20más%20de%20tus%20productos" class="fab fa-whatsapp" target="blank"></a>  
         </div>   
     </div>
 
@@ -69,7 +77,7 @@
     </div>
     
     <div class="cont_footer copy">
-        Copyright©️ 2021 Desarrollo del Software
+        Copyright©️ 2021 Esteban Joyeros
     </div>
 
 </footer>

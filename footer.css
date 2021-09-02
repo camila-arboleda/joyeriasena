@@ -1,4 +1,4 @@
-.footer{
+footer{
     height: 10rem;
     padding: 1rem;
     display: flex;
@@ -6,51 +6,56 @@
     justify-content: space-around;
     background-color:  black;
 }
-.footer .cont_footer{
+footer .cont_footer{
     margin: 0 .2rem;
     width: 26em;
     color: white;
 }
-.footer .cont_footer{
+footer .redes{
+    padding-top: 20px;
+}
+footer .cont_footer{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.footer .cont_footer .iconos{
+footer .cont_footer .iconos{
     width: 100%;
     margin-top: 1rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
-.footer .cont_footer .iconos a{
+footer .iconos a{
     margin: 0 1rem;
     font-size: 2.5em;
-    font-weight: bold;
     color: white;
     text-decoration: none;
+    height: 80px;
+    width: 80px;
 }
-.footer .cont_footer .iconos a:hover{
+footer .iconos a:hover{
     color:white;
 }
-.footer .menu ul{
+footer .menu ul{
     display: flex;
     flex-wrap: wrap;
     align-self: flex-start;
 }
-.footer .menu ul li{
+footer .menu ul li{
     list-style: none;
     margin: 1rem;
 }
-.footer .menu ul a{
+footer .menu ul a{
     text-decoration: none;
     color: white;
 } 
-.footer .menu ul a:hover{
+footer .menu ul a:hover{
     color:white;
 }
-.footer .copy{
+footer .copy{
     justify-content: flex-end;
     color: white;
+    padding-bottom: 20px;
 }
